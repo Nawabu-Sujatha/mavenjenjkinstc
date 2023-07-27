@@ -6,7 +6,14 @@
     </head>
 <body>
 <h2> 
-	<h2> https://admin.typeform.com/form/oGg93SKG/create?block=01H6BB3XSA3YZKB9R65H7Q9TYM</h2>
+	<h2> job('Registration_Form') {
+  parameters {
+    stringParam('NAME', '', 'Your Name:')
+    stringParam('EMAIL', '', 'Email Address:')
+    choiceParam('GENDER', ['Male', 'Female', 'Other'], 'Select Gender:')
+    booleanParam('SUBSCRIBE', true, 'Subscribe to newsletter:')
+  }
+}</h2>
   
 </body>
 </html>
