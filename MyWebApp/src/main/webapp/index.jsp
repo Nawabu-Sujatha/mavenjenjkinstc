@@ -6,14 +6,7 @@
     </head>
 <body>
 <h2> 
-	<h2> job('Registration_Form') {
-  parameters {
-    stringParam('NAME', '', 'Your Name:')
-    stringParam('EMAIL', '', 'Email Address:')
-    choiceParam('GENDER', ['Male', 'Female', 'Other'], 'Select Gender:')
-    booleanParam('SUBSCRIBE', true, 'Subscribe to newsletter:')
-  }
-}</h2>
+	<h2> Welcome to marolix</h2>
   
 </body>
 </html>
